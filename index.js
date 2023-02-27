@@ -61,7 +61,7 @@ const inti = function() {
         }
         if(data.menu==='Finish building team'){
         fs.writeFile(outputPath, render(team), (err) =>
-          err ? console.log(err) : console.log('Success!')
+          err ? console.log(err) : console.log('Your team website is ready!')
         );
         }
       });
@@ -113,7 +113,7 @@ const engi = function() {
         }
         if(data.menu==='Finish building team'){
         fs.writeFile(outputPath, render(team), (err) =>
-          err ? console.log(err) : console.log('Success!')
+          err ? console.log(err) : console.log('Your team website is ready!')
         );
         }
       });
@@ -165,7 +165,7 @@ inquirer
     }
     if(data.menu==='Finish building team'){
     fs.writeFile(outputPath, render(team), (err) =>
-      err ? console.log(err) : console.log('Success!')
+      err ? console.log(err) : console.log('Your team website is ready!')
     );
     }
   });

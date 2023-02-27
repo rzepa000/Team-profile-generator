@@ -3,10 +3,10 @@ const generateTeam = team => {
 
     // creates the manager html
     const generateManager = manager => {
-        console.log(manager.getEmail());
+        
         return `
-        <div class="card employee-card">
-        <div class="card-header">
+        <div class="card employee-card mr-2 shadow">
+        <div class="card-header bg-primary">
             <h2 class="card-title">${manager.getName()}</h2>
             <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${manager.getRole()}</h3>
         </div>
@@ -24,8 +24,8 @@ const generateTeam = team => {
     // creates the html for engineers
     const generateEngineer = engineer => {
         return `
-        <div class="card employee-card">
-    <div class="card-header">
+        <div class="card employee-card mr-2 shadow">
+    <div class="card-header bg-success">
         <h2 class="card-title">${engineer.getName()}</h2>
         <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
     </div>
@@ -43,8 +43,8 @@ const generateTeam = team => {
     // creates the html for interns
     const generateIntern = intern => {
         return `
-        <div class="card employee-card">
-    <div class="card-header">
+        <div class="card employee-card mr-2 shadow">
+    <div class="card-header bg-warning">
         <h2 class="card-title">${intern.getName()}</h2>
         <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>${intern.getRole()}</h3>
     </div>

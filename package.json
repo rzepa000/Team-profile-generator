@@ -1,0 +1,21 @@
+{
+  "name": "Team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index",
+    "test": "jest"
+  },
+  "author": "Jakub Rzepinski",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^6.5.0",
+    "path": "^0.12.7"
+  }
+}
